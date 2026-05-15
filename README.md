@@ -162,7 +162,7 @@ The app enforces several invariants to keep AI suggestions safe:
 
 This project is created and maintained by [TRWK>](https://trwk.de), formerly [trieb.work](https://trieb.work) — a Next.js, Saleor & Payload CMS agency.
 
-Saleor extensions, AI-assisted catalog enrichment, and AI-ready product data for agentic commerce are the kind of work we do day-to-day. If that overlaps with what your team is planning, [get in touch](https://trwk.de).
+Saleor extensions, AI-assisted catalog enrichment, and AI-ready product data for agentic commerce are the kind of work we do day-to-day. If that overlaps with what your team is planning, [get in touch](https://trwk.de/contact).
 
 ## License
 
