@@ -1,0 +1,12 @@
+mutation UpdateProductAttributes($id: ID!, $attributes: [AttributeValueInput!]) {
+  productUpdate(id: $id, input: { attributes: $attributes }) {
+    errors {
+      field
+      message
+      code
+    }
+    product {
+      id
+    }
+  }
+}

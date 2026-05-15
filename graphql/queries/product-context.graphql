@@ -1,0 +1,20 @@
+query ProductContext($id: ID!) {
+  product(id: $id) {
+    id
+    name
+    slug
+    description
+    seoTitle
+    seoDescription
+    productType {
+      id
+      name
+      productAttributes {
+        ...ProductAttributeDefinition
+      }
+    }
+    assignedAttributes(limit: 100) {
+      ...AssignedProductAttribute
+    }
+  }
+}

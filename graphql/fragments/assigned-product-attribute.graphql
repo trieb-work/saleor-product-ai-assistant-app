@@ -1,0 +1,53 @@
+fragment AssignedProductAttribute on AssignedAttribute {
+  __typename
+  attribute {
+    id
+    name
+    slug
+    inputType
+    type
+  }
+  ... on AssignedTextAttribute {
+    textValue: value
+  }
+  ... on AssignedPlainTextAttribute {
+    plainTextValue: value
+  }
+  ... on AssignedNumericAttribute {
+    numericValue: value
+  }
+  ... on AssignedBooleanAttribute {
+    booleanValue: value
+  }
+  ... on AssignedDateAttribute {
+    dateValue: value
+  }
+  ... on AssignedDateTimeAttribute {
+    dateTimeValue: value
+  }
+  ... on AssignedSingleChoiceAttribute {
+    singleChoiceValue: value {
+      name
+      slug
+    }
+  }
+  ... on AssignedMultiChoiceAttribute {
+    multiChoiceValue: value(limit: 50) {
+      name
+      slug
+    }
+  }
+  ... on AssignedSwatchAttribute {
+    swatchValue: value {
+      name
+      slug
+      hexColor
+    }
+  }
+  ... on AssignedFileAttribute {
+    fileValue: value {
+      url
+      contentType
+    }
+  }
+}

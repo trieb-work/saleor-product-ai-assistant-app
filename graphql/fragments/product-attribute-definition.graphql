@@ -1,0 +1,19 @@
+fragment ProductAttributeDefinition on Attribute {
+  id
+  name
+  slug
+  inputType
+  type
+  unit
+  valueRequired
+  withChoices
+  choices(first: 50) {
+    edges {
+      node {
+        id
+        name
+        slug
+      }
+    }
+  }
+}
