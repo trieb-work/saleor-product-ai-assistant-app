@@ -21,7 +21,7 @@
 </div>
 
 > [!TIP]
-> This app is the demo from the article [From Product Data Gaps to Structured Catalogs: Building an AI Saleor App with Dashboard Widgets](./writing/final/version-0-G55.md).
+> This app is the demo from the article [From Product Data Gaps to Structured Catalogs: Building an AI Saleor App with Dashboard Widgets](https://saleor.io/blog/saleor-app-ai-catalog-enrichment).
 
 ## What it does
 
